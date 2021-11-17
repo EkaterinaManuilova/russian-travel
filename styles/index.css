@@ -1,0 +1,74 @@
+
+@import url(./vendor/normalize.css);
+.page {
+    background-color: #000;
+    color: white;
+    font-family: 'Inter';
+    min-width: 1024px;
+    padding-top: 28px;
+}
+.header {
+    border: red 1px solid;
+    box-sizing: border-box;
+    min-width: 928px;
+    min-height: 52px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+.header__links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    justify-items: end;
+    align-items: end;
+}
+.header__lang-link {
+    color: white;
+    margin-left: 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+.header__lang-link_en {
+    text-decoration: none;
+}
+.lead {
+    border: red 1px solid;
+    box-sizing: border-box;
+    min-width: 928px;
+    min-height: 962px;
+    margin-right: 48px;
+    margin-left: 48px;
+    margin-top: 48px;
+}
+.lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    margin: 0;
+    margin: 48px auto 0;
+    text-align: center;
+}
+.lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    margin: 32px auto 0;
+    text-align: center;
+}
+.lead__image {
+width: 100%;
+min-height: 580px;
+margin-top: 56px;
+}
+.lead__caption {
+    font-size: 10px;
+    line-height: 14px;
+    margin: 0;
+    width: 158px;
+    margin-top: 8px;
+}
