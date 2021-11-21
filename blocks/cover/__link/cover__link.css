@@ -7,8 +7,6 @@
     text-decoration: none;
     flex-direction: column;
     color: white;
-    background-image: url(../../../images/cover-trains.jpg);
-    background-size: cover;
     position: relative;
 }
 

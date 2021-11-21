@@ -2,12 +2,14 @@
     display: flex;
     width: calc(100% - 48px*2);
     height: 100%;
-    margin:0 48px;
+    margin: 0 48px;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
 }
 
 @media screen and (max-width: 1200px) {
     .cover {
-        width:100%;
+        width: 100%;
         margin: 0 auto;
     }
 }
