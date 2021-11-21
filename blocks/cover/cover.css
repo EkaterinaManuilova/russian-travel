@@ -2,11 +2,7 @@
     display: flex;
     width: calc(100% - 48px*2);
     min-height: 740px;
-    height: 100%;
     margin: 0 48px;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
-    object-fit: fill;
 }
 
 @media screen and (max-width: 1200px) {
