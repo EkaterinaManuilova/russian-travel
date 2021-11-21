@@ -1,0 +1,37 @@
+.places {
+    width: calc(100% - 148px*2);
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: repeat(5, min-content);
+    row-gap: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .places {
+        width: calc(100% - 48px*2);
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .places {
+        width: calc(100% - 24px*2);
+        margin: 0 auto;
+        row-gap: 73px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .places {
+        max-width: 100%;
+        margin: 0 auto;
+        row-gap: 50px;
+        justify-content: center;
+    }
+}
+
+.places:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+    transition: box-shadow linear 0.5s;
+}

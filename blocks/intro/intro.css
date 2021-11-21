@@ -1,0 +1,30 @@
+.intro {
+    margin: 0;
+    max-width: 690px;
+    max-height: 429px;
+    margin-left: 148px;
+}
+
+@media screen and (max-width: 1200px) {
+    .intro {
+        max-width: 720px;
+        max-height: 429px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .intro {
+        max-width: 720px;
+        max-height: 429px;
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .intro {
+        max-width: calc(100vw - 16px*2);
+        max-height: 754px;
+        margin: 0 16px;  
+    }
+}

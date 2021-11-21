@@ -1,0 +1,9 @@
+.figure__caption {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+    margin: 0;
+    width: 158px;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
