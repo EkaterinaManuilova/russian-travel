@@ -1,15 +1,29 @@
 .cover {
     display: flex;
-    width: calc(100% - 48px*2);
+    width: 100%;
+    min-height: 740px;
     height: 100%;
     margin: 0 48px;
-    background-image: url(../../../images/cover-trains.jpg);
+    background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
+    object-fit: fill;
 }
 
 @media screen and (max-width: 1200px) {
     .cover {
-        width: 100%;
+        min-height: 640px;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .cover {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .cover {
+        min-height: 200px;
     }
 }
