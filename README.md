@@ -19,5 +19,5 @@ ___
 
 
 ___
-ССылка на проект:
+ССылка на проект: https://ekaterinamanuilova.github.io/russian-travel/index.html
 
