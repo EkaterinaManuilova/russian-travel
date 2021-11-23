@@ -2,7 +2,6 @@
     grid-area: place__website;
     margin-left: -16px;
     display: grid;
-    height: 46px;
     align-self: end;
     gap: 12px;
 }

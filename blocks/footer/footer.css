@@ -1,6 +1,5 @@
 .footer {
     width: 92%;
-    min-height: 18px;
     display: flex;
     margin: 0 48px;
     margin-top: 92px;
@@ -18,7 +17,6 @@
     .footer {
         margin-top: 64px;
         margin-left: 16px;
-        min-height: 310px;
         opacity: 0.2;
     }
 }
