@@ -1,5 +1,6 @@
 .cover__link {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,9 +9,12 @@
     color: white;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    margin: 0;
 }
+
 
 .cover__link::before {
     content: "";

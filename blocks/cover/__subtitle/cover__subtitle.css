@@ -7,13 +7,35 @@
     margin-top: 32px;
     font-weight: 400;
     z-index: 1;
+    margin-bottom: 245px;
+}
+
+@media screen and (max-width:1200px) {
+    .cover__subtitle {
+        margin-bottom: 195px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .cover__subtitle {
+        margin-bottom: 115px;
+    }
 }
 
 @media screen and (max-width:760px) {
     .cover__subtitle {
+        max-width: 338px;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 74px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .cover__subtitle {
         max-width: 288px;
         font-size: 14px;
         line-height: 16px;
-        margin-top: 16px;
+        margin-bottom: 33px;
     }
 }
