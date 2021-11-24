@@ -21,11 +21,29 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:760px) {
+    .cover__title {
+        max-width: 400px;
+        font-size: 52px;
+        line-height: 55px;
+        margin-top: 85px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cover__title {
+        max-width: 300px;
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width:400px) {
     .cover__title {
         max-width: 250px;
         font-size: 32px;
         line-height: 35px;
-        margin: 33px auto 0;
+        margin-top: 33px;
     }
 }
