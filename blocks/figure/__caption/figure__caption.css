@@ -6,4 +6,17 @@
     width: 158px;
     margin-top: 8px;
     text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+@media screen and (max-width:1000px) {
+    .figure__caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .figure__caption {
+        margin-left: 16px;
+    }
 }

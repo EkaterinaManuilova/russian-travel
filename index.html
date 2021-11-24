@@ -12,8 +12,8 @@
         <header class="header">
             <img class="header__logo" src="images/header-logo.svg" alt="Карта  России в миниатюре">
             <div  class="header__links">
-                <a class="header__lang-link" href="#">Ru</a>
-                <a class="header__lang-link header__lang-link_status_inactive" href="#">En</a>
+                <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+                <a class="header__lang-link" href="#">En</a>
             </div>
         </header>
 
@@ -31,14 +31,15 @@
                 <h2 class="intro__title">Чего мы там не видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
                 <ul class="intro__list">
-                    <li>Часовых поясов 11</li>
-                    <li>Объектов природного наследия ЮНЕСКО 12</li>
-                    <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li>Природных заповедников 105</li>
-                    <li>Аэропортов 241</li>
+                    <li><span class="intro__weight">Часовых поясов</span> 11</li>
+                    <li><span class="intro__weight">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                    <li><span class="intro__weight">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                    <li><span class="intro__weight">Природных заповедников</span> 105</li>
+                    <li><span class="intro__weight">Аэропортов</span> 241</li>
                 </ul>
             </article> 
 
+            <section aria-label="Фотографии">
             <ul class="photo-grid">
                 <li>
                     <img  class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид на иоре из окна купе">
@@ -77,6 +78,7 @@
                     <img  class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Горы просвечивают сквозь густые облака">
                 </li>
             </ul> 
+            </section>
 
             <section class="places" aria-label="Интересные места">
                 <article class="place">
@@ -84,7 +86,7 @@
                     <img class="place__image" src="./images/place-kosa.jpg" alt="Торчащие из моря скалы">
                     <div class="place__website">
                         <p class="place__url-heading">URL</p>
-                        <a class="place__link" href="http://park-kosa.ru" target="_blank">http://park-kosa.ru</a>
+                        <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                     </div>
                     <div class="place__paragraph">
                         <p class="place__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны 
@@ -168,28 +170,26 @@
         </main>
 
         <footer class="footer">
-            <div class="footer__area">
-                <nav class="footer__menu">
-                    <ul class="footer__links">
-                        <li>
-                            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="footer__copyright"> 2021. Мануйлова Екатерина</p>
-            </div>
+            <nav class="footer__menu">
+                <ul class="footer__links">
+                    <li>
+                        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="footer__copyright"> 2021. Мануйлова Екатерина</p>
         </footer> 
     </div>
 </body>

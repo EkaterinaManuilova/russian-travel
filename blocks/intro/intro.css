@@ -6,14 +6,19 @@
 
 @media screen and (max-width: 1200px) {
     .intro {
-        max-width: 720px;
         margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .intro {
-        width: 90.5%;
+        max-width: 93.75%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .intro {
+        max-width: 90%;
     }
 }

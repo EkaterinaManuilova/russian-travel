@@ -35,18 +35,23 @@
 
 @media screen and (max-width:600px) {
     .cover__subtitle {
-        width: 72%;
+        width: 70%;
         margin-top: 16px;
         margin-bottom: 70px;
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:500px) {
     .cover__subtitle {
-        width: 100%;
+        width: 74%;
         font-size: 14px;
         line-height: 16px;
-        margin-top: 16px;
         margin-bottom: 33px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .cover__subtitle {
+        width: 98%;
     }
 }

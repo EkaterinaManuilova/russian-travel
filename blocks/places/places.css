@@ -27,8 +27,3 @@
         justify-content: center;
     }
 }
-
-.places:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
-    transition: box-shadow linear 0.5s;
-}

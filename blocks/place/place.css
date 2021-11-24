@@ -7,7 +7,7 @@
     grid-template-rows: min-content 1fr;
     grid-template-areas:
     "place__title place__website"
-    "place__image place_paragraph";
+    "place__image place__paragraph";
 }
 
 @media screen and (max-width: 1200px)  {
@@ -29,6 +29,7 @@
         "place__title"
         "place__website"
         "place__image"
-        "place_paragraph";
+        "place__paragraph";
+        row-gap: 32pz;
     }
 }
