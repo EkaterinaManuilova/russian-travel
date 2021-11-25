@@ -28,6 +28,6 @@
 @media screen and (max-width: 760px) {
     .place__paragraph {
         margin: 0 16px;
-        transform: translateX(16px);
+        transform: translateX(0px);
     }
 }
