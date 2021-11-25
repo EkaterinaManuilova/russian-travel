@@ -6,46 +6,31 @@
     line-height: 76px;
     font-weight: 900;
     z-index: 1;
-    margin-top: 245px;
+    margin: 20% 16% 0;
 }
 
 @media screen and (max-width:1200px) {
     .cover__title {
-        margin-top: 195px;
+        margin: 19% 22.5% 0;
     }
 }
 
 @media screen and (max-width:1000px) {
     .cover__title {
-        margin-top: 115px;
+        margin: 14.5% 13.5% 0;
     }
 }
 
 @media screen and (max-width:760px) {
     .cover__title {
-        max-width: 400px;
-        font-size: 52px;
-        line-height: 55px;
-        margin-top: 85px;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .cover__title {
         max-width: 300px;
         font-size: 42px;
         line-height: 45px;
-        margin-top: 70px;
+        margin: 10% 5% 0;
     }
 }
 
 @media screen and (max-width:500px) {
-    .cover__title {
-        margin-top: 33px;
-    }
-}
-
-@media screen and (max-width:350px) {
     .cover__title {
         max-width: 250px;
         font-size: 32px;

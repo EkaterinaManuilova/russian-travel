@@ -1,57 +1,45 @@
 .cover__subtitle {
     margin: auto;
-    width: 33%;
+    max-width: 360px;
     text-align: center;
     font-size: 18px;
     line-height: 22px;
-    margin-top: 32px;
     font-weight: 400;
     z-index: 1;
-    margin-bottom: 245px;
+    margin: 32px 35% 20%;
 }
 
 @media screen and (max-width:1200px) {
     .cover__subtitle {
-        margin-bottom: 195px;
+        margin: 32px 32.5% 19%;
     }
 }
 
 @media screen and (max-width:1000px) {
     .cover__subtitle {
-        width: 43%;
-        margin-bottom: 115px;
+        margin: 32px 26.5% 14.5%;
     }
 }
 
 @media screen and (max-width:760px) {
     .cover__subtitle {
-        width: 55%;
         font-size: 16px;
         line-height: 20px;
         margin-top: 24px;
-        margin-bottom: 85px;
+        margin: 32px 5% 10%;
     }
 }
 
 @media screen and (max-width:600px) {
     .cover__subtitle {
-        width: 70%;
         margin-top: 16px;
-        margin-bottom: 70px;
     }
 }
 
 @media screen and (max-width:500px) {
     .cover__subtitle {
-        width: 74%;
+        max-width: 288px;
         font-size: 14px;
         line-height: 16px;
-        margin-bottom: 33px;
-    }
-}
-
-@media screen and (max-width:350px) {
-    .cover__subtitle {
-        width: 98%;
     }
 }
