@@ -5,6 +5,7 @@
     line-height: 28px;
     font-weight: 400;
     text-decoration: none;
+    transition: opacity linear 0.5s;
 }
 
 @media screen and (max-width: 760px) {
@@ -12,4 +13,9 @@
         font-size: 18px;
         line-height: 20px;
     }
+}
+
+.header__lang-link:hover {
+    color: white;
+    opacity: 0.8;
 }

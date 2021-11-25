@@ -2,12 +2,13 @@
     grid-area: place__paragraph;
     margin-top: 0;
     margin-bottom: 0;
-    transform: translateX(-16px);
+    position: relative;
+    right: 16px;
     font-size: 18px;
     line-height: 29.34px;
     font-weight: 400;
     display: grid;
-    grid-template-rows: repeat(2, min-content);
+    grid-template-rows: repeat(auto-fit, minmax(min-content,  1fr));
     gap: 26px;
 }
 
@@ -28,6 +29,6 @@
 @media screen and (max-width: 760px) {
     .place__paragraph {
         margin: 0 16px;
-        transform: translateX(0px);
+        right: 0;
     }
 }
