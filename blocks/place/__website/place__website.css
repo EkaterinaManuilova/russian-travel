@@ -1,7 +1,5 @@
 .place__website {
     grid-area: place__website;
-    position: relative;
-    right: 19px;
     align-self: end;
     gap: 12px;
     display: grid;
@@ -10,6 +8,5 @@
 @media screen and (max-width: 760px) {
     .place__website {
         margin: 0 16px;
-        right: 0;
     }
 }
