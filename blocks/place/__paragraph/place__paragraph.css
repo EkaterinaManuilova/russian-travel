@@ -5,22 +5,12 @@
     font-size: 18px;
     line-height: 29.34px;
     font-weight: 400;
-    display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(min-content,  1fr));
-    gap: 26px;
-}
-
-@media screen and (max-width: 1200px) {
-    .place__paragraph {
-        gap: 27px;
-    }
 }
 
 @media screen and (max-width: 1000px){
     .place__paragraph {
         font-size: 16px;
         line-height: 26.08px;
-        gap: 25px;
     }
 }
 
