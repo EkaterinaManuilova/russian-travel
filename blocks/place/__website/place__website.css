@@ -4,7 +4,7 @@
     right: 19px;
     align-self: end;
     gap: 12px;
-    display: inline-block;
+    display: grid;
 }
 
 @media screen and (max-width: 760px) {
