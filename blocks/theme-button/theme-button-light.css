@@ -1,11 +1,11 @@
 
     .theme-button {
         position: fixed;
-        right: 20px;
+        right: 5px;
         bottom: 50px;
         display: inline-block;	
         box-sizing: border-box;
-        padding: 0 25px;
+        padding: 0 5px;
         margin: 0 15px 15px 0;
         outline: none;
         border: 1px solid #706f6f;
@@ -15,7 +15,7 @@
         font-size: 14px;
         font-weight: 600;
         text-decoration: none;
-        color: #373737;
+        color: #2a2c2f;
         background-color: #f4f4f4;
         cursor: pointer;
         user-select: none;
@@ -30,10 +30,4 @@
         }
         .theme-button:active {
             background-color: #808080;
-        }
-        .theme-button:disabled {
-            background-color: #eee;
-            border-color: #eee;
-            color: #444;
-            cursor: not-allowed;
         }
