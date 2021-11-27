@@ -24,9 +24,10 @@
     transition: box-shadow linear 0.5s;
     }
    
-    .theme-button:hover {
-        box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
-    }
-    .theme-button:active {
-        background-color: #808080;
-    }
+.theme-button:hover {
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.theme-button:active {
+    background-color: #808080;
+}
